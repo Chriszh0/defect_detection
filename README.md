@@ -50,7 +50,7 @@ defect_detection/
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/chriszhu0/defect_detection.git
+git clone https://github.com/chriszh0/defect_detection.git
 cd defect_detection
 ```
 
