@@ -1,0 +1,31 @@
+# 数据集路径配置
+path: D:\\Program\\defect_detection\\data\\NEU-DET
+
+# 数据集配置
+data:
+  train: train\\images
+  val: validation\\images
+  nc: 6  # 缺陷类别数
+  names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']  # 类别名称
+
+# 训练配置
+train:
+  epochs: 100
+  batch_size: 16
+  img_size: 640
+  workers: 4
+
+# 预处理参数
+preprocess:
+  median_size: 3
+  sobel_mode: 'sqrt'
+  thresh_low: 64
+  thresh_high: 192
+  edge_scale: 4
+  edge_threshold: 20
+
+# 检测配置
+detect:
+  conf_thres: 0.45
+  iou_thres: 0.45
+  max_det: 5

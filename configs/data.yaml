@@ -1,0 +1,8 @@
+# Train/val/test sets
+path: D:\\Program\\defect_detection\\data\\NEU-DET  # dataset root dir
+train: train\\images  # train images (relative to 'path')
+val: validation\\images  # val images (relative to 'path')
+
+# Classes
+nc: 6  # number of classes
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']  # class names 

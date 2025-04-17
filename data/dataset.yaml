@@ -1,0 +1,14 @@
+# 数据集配置
+path: ../data  # 相对于YOLOv5目录的数据集根目录
+train: images/train  # 训练图像相对路径
+val: images/val  # 验证图像相对路径
+test: images/test  # 测试图像相对路径
+
+# 类别设置
+nc: 1  # 类别数量
+names: ['white_spot']  # 类别名称列表
+
+# 数据集信息
+author: 'Your Name'
+date: '2024-03'
+description: '工业零件白斑缺陷检测数据集'
